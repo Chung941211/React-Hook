@@ -1,11 +1,9 @@
-import { useCallback, useState } from 'react';
+function Index() {
+  return (
+    <div>
+      <div>aaa</div>
+    </div>
+  )
+} 
 
-// 组件重新渲染的hook
-
-const useUpdateHook = () => {
-  const [, setState] = useState({});
-
-  return useCallback(() => setState({}), []);
-};
-
-export default useUpdateHook;
+export default Index
